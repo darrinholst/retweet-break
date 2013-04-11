@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -22,4 +22,12 @@ h1 {
 
 #retweeter-count {
   font-family: monospace;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.actions {
+  margin-top: 20px;
 }
