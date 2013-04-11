@@ -42,7 +42,7 @@
           });
         } else {
           working = false;
-          alert("Thanks for playing.");
+          $('#retweeter-count').html(isDelete ? '\\o/' : 'o_O')
         }
       }
 

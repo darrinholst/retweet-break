@@ -19,3 +19,7 @@ h1 {
   margin-bottom: 15px;
   color: #888;
 }
+
+#retweeter-count {
+  font-family: monospace;
+}
