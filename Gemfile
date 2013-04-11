@@ -11,7 +11,6 @@ gem 'thin'
 gem 'twitter'
 gem 'twitter-text'
 
-
 group :development do
   gem 'awesome_print'
   gem 'better_errors'
@@ -28,5 +27,9 @@ group :assets do
   gem 'therubyracer'
   gem 'uglifier'
   gem 'twitter-bootstrap-rails'
+end
+
+group :production do
+  gem 'newrelic_rpm'
 end
 
