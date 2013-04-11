@@ -1,0 +1,12 @@
+<h1>You have <span id="retweeter-count"><%= @friend_ids.count %></span> possible retweeters</h1>
+<p class="note">If you are following more people than the number above then you have bigger problems than retweets. Twitter could be broke too. Hey, you get what you pay for.</p>
+
+<p>
+  <a href="#" data-retweeter-method="delete" class="btn btn-large btn-danger">Turn 'em off</a>
+  <a href="#" data-retweeter-method="post" class="btn btn-large btn-success">Turn 'em on</a>
+</p>
+
+<script>
+  var friendIds = <%= @friend_ids.to_json %>;
+</script>
+

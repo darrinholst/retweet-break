@@ -1,0 +1,21 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  padding-top: 80px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-right: 15px;
+}
+
+.note {
+  margin-bottom: 15px;
+  color: #888;
+}
