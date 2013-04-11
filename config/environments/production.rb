@@ -61,4 +61,5 @@ Retweetbreak::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
+  config.google_analytics = 'UA-40008868-1'
 end
